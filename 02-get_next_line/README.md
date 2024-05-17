@@ -22,9 +22,9 @@ int main() {
 
 	while (line = get_next_line(fd)) {
 		printf("%s", line);
-    free(line);
+    		free(line);
 	}
-close(fd);
+	close(fd);
 	return 0;
 }
 ```
