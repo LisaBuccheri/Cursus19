@@ -51,8 +51,6 @@ Will wait and read the instructions in the standard input (you have to past the 
 ```terminal
 ./checker 9 6 68 15 7
 
-#you can pass the push_swap result to see if it's properly sort and that stack b is empty
-ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG #should return OK
 ```
 You can pass the push_swap result to see if it's properly sort the stack. 
 Return OK if it's well sort and stack b empty.
