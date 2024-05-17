@@ -7,7 +7,7 @@ This first project as a 19 student (member of 42 campus) has enabled us to conso
   - Imperative programming
   - Algorithms & AI
 
-###Makefike command line 
+### Makefike command line 
 
 ```make
 make #compile the project
