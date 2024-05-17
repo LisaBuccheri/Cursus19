@@ -6,3 +6,12 @@ The key here was to learn how to use a variable number of arguments.
 
   - Algorithms & AI
   - Rigor 
+
+### Makefike command line 
+
+```make
+make #compile the project
+make clean #delete the object file
+make fclean #clean the project
+make re #remake clean the project and compile it again
+```
