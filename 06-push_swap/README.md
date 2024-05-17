@@ -33,7 +33,7 @@ make checker #will compile the check that checked if the stack is sort
 
 You have to pass a number series has argument to the push_swap program.
 
-#### program
+#### How use the programs
 Will print out each movement made by the program
 ```terminal
 ./push_swap 9 6 68 15 7
