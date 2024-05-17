@@ -35,7 +35,7 @@ gcc main.c get_next_line.c get_next_line_utils.c #(for the bonus) gcc main.c get
 ```
 
 #### main.c example for the bonus
-```
+```c
 #include "get_next_line_bonus.h"
 #include <stdio.h>
 #include <fcntl.h>
