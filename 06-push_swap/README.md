@@ -21,12 +21,43 @@ The instructions allowed was:
   - Imperative programming
   - Rigor
 
-### Makefike command line 
+### Makefike command
 
 ```make
 make #compile the project
 make clean #delete the object file
 make fclean #clean the project
 make re #remake clean the project and compile it again
-make checker
+make checker #will compile the check that checked if the stack is sort
+```
+
+You have to pass a number series has argument to the push_swap program.
+
+####program
+Will print out each movement made by the program
+```terminal
+./push_swap 9 6 68 15 7
+ra
+pb
+ra
+ra
+pb
+sa
+ra
+pa
+pa
+```
+Will wait and read the instructions in the standard input (you have to past the instruction above to sort the serie number)
+```terminal
+./checker 9 6 68 15 7
+
+#you can pass the push_swap result to see if it's properly sort and that stack b is empty
+ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker $ARG #should return OK
+```
+You can pass the push_swap result to see if it's properly sort the stack. 
+Return OK if it's well sort and stack b empty.
+Return KO if not.
+```terminal
+ARG="9 6 68 15 7"; ./push_swap $ARG | ./checker $ARG
+OK
 ```
