@@ -16,9 +16,9 @@ make re #remake clean the project and compile it again
 ```
 Once you'he compiled, you have to provide some arguments to the program "./pipex".
 Our program has to behave exactly like the command shell 
+< file1 cmd1 | cmd2 > file2
 
 ```bash
-< file1 cmd1 | cmd2 > file2
 #so that command
  ./pipex infile "ls -l" "wc -l" outfile
 #should be the same has 
