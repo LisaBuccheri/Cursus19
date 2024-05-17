@@ -19,4 +19,14 @@ The instructions allowed was:
   - Unix
   - Algorithms & AI
   - Imperative programming
-  - Rigor 
+  - Rigor
+
+### Makefike command line 
+
+```make
+make #compile the project
+make clean #delete the object file
+make fclean #clean the project
+make re #remake clean the project and compile it again
+make checker
+```
