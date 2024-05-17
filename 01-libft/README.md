@@ -6,3 +6,12 @@ This first project as a 19 student (member of 42 campus) has enabled us to conso
   - Rigor
   - Imperative programming
   - Algorithms & AI
+
+###Makefike command line 
+
+```make
+make #compile the project
+make clean #delete the object file
+make fclean #clean the project
+make re #remake clean the project and compile it again
+```
