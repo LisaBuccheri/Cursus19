@@ -28,9 +28,10 @@ int main() {
 	printf("%d\n", ft_tolower('A'));
 
 	return 0;
-}```
+}
+```
 
-### terminal command line
+#### terminal command line
 ```terminal
 gcc main.c libft.a
 ```
