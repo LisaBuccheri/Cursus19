@@ -81,12 +81,10 @@ void	compare_op(char *str, t_array *arr)
 
 int	main(int argc, char *argv[])
 {
-	int		i;
 	int		init;
 	char	*op;
 	t_array	arr;
 
-	i = 0;
 	if (ft_error_digit(argc, argv) == 0)
 		return (0);
 	init = init_struct(argc, argv, &arr);
