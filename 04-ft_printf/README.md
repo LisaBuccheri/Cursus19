@@ -15,3 +15,8 @@ make clean #delete the object file
 make fclean #clean the project
 make re #remake clean the project and compile it again
 ```
+
+The make command will create a static library libftprintf.a that you can add to your main compilation 
+```terminal
+gcc main.c libftprintf.a
+```
